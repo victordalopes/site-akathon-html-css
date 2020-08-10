@@ -1,0 +1,271 @@
+@charset "UTF-8";
+*{
+	font-family:Montserrat;
+}
+body{
+	margin: 0;
+}
+/*MENU FIXO PADRAO */
+	.navbar {
+		background-color:#F0F0F0;
+		position:fixed; 
+		top: 0; 
+		width: 100%;
+		height:70px;
+	 
+	}
+	.menu{
+		text-align:right;
+		
+	}
+	a{text-decoration: none;
+	color:black;
+	}
+	ul.menu li { display: inline; 
+			
+	}
+
+
+	ul li a {
+		
+		text-align:left;
+		padding: 0px 10px 0px 10px;
+		color: darkblue;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-size: 1.1em; 
+		color:black;
+		
+	}
+/*LOGO PARA ESQUERDA */
+	.logo{
+		float:left;
+	}
+/*banner 100% da pagina*/
+	#banner{
+		width:100%;
+		height:550px;
+		margin-top:15px;
+		
+	}
+/*Galeria do body com imagens uma ao lado da outra*/
+	.imgHOME{
+		width:600px;
+		height:400px; 
+		border-radius: 160px;
+	}
+	div.gallery {
+		margin:10px;
+		float: left;
+		margin-left:40px;
+
+	}
+
+
+	div.desc {
+		padding: 15px;
+		text-align: center;
+		font-size:2em;
+
+	}
+	h1,h2,h3{
+		font-weight: normal;
+		text-align:center;	
+		
+		
+	}
+	/*Borda ao passar o mouse nas imagens*/
+	.gallery:hover{
+		box-shadow:0 2px 2px #666;
+		border-radius: 160px;
+		
+	   
+	}
+	.homeT{
+		color:#FF8E00;
+	}
+
+
+/*FOOTER PADRAO*/
+	.foot{
+		padding:20px;
+		color:#ffffff;
+	}
+
+	.rodape{
+		clear:both;
+		text-align:center;
+		width:100%;
+		height: 150px;
+		background-color: #8f9aad;
+	}
+
+/*PAGINA DE ACABAMENTOS*/
+	div.acabamentos{
+		margin:30px;
+		float: left;
+		margin-left:40px;
+		margin-right:47px;  
+		margin-top:50px;
+
+	}
+
+	.imgACABAMENTOS{
+		width:250px;
+		height:250px; 
+		border-radius: 1000px;
+	}
+	.descACAB{
+		padding:10px;
+		text-align:center;
+	}
+/* CSS DA PÁGINA DE CONTATOS */
+
+	.estilotextarea {
+		width: 560px;
+		height: 250px;
+		border: 0.7px solid;
+		border-color: black;
+	}
+
+	button {
+		font-size: 20px;
+		background-color: lightgrey;
+		border-radius: 15px;
+	}
+
+	article {
+		float: left;
+		margin-top: 0px;
+		margin-left: 80px;
+		margin-right: 80px;
+	}
+
+	aside {
+		float: right;
+		margin-right: 80px;
+		margin-top: 0px;
+		width: 500px;
+	}
+
+	aside.formas {
+		float: right;
+		margin: 60px 50px 90px;
+		height: 300px;
+		width: 420px;
+		border: solid black 2px;
+		background-color: hsla(0, 10%, 70%, 0.51);
+		border-radius: 30px;
+		padding: 10px;
+		text-align: center;
+		font-size:20px;
+	}
+
+/* determina bordas arredondadas e a cor dos campos ao serem clicados */
+input:focus { background-color: lightgrey; }
+
+input { border-radius: 10px; }
+
+textarea { border-radius: 10px; }
+
+/* determina a cor e o tamanho das fontes do h1 e h2 para Formas de pagamento
+e pra chamada da lista de cidades */
+h1.formas {
+	color:#FF8E00;
+ }
+h2.osasco {
+	font-size: 28px;
+	color:#FF8E00;
+ }
+ 
+ /* Configura a tabela de cidades */
+table { 
+	width: 550px;
+	border: 2px solid black;
+	border-radius: 0px 0px 10px 10px;
+	}
+	
+td {
+	width: 50%;
+}
+
+caption { 
+	text-align: center;
+	background-color: lightgrey;
+	border: 2px solid black;
+	border-radius: 10px 10px 0px 0px; 
+	}
+
+ /* CSS DO CONHEÇA A AKÁTHON */
+
+	
+h1.conheca {
+	text-align: center;
+	font-size: 40px;
+	color:#FF8E00;
+	}
+	
+h1.palavras {
+	text-align: center;
+	font-size: 40px;
+	word-spacing: 50px;
+	color:#FF8E00;
+	}
+
+p.sobre {
+	font-size: 20px
+}
+	
+	
+#atomo{
+	display:block;
+	margin:auto;
+	}
+/*Fim CSS DO CONHEÇA A AKÁTHON */
+
+
+
+/*PILITICAS DE PRIVACIDADE CSS*/
+
+	.politica{
+		color:black;
+		
+	}
+	.text{
+		text-align:center;
+		padding:20px;
+		
+	}
+	div.box{
+		width:80%;
+		height:200px;
+		margin:auto;
+		font-size:1.2em;
+	}
+	hr{
+		width:1200px;
+	}
+/*Política de Troca e Devolução Akáthon CSS*/
+
+
+	div.boxTroca{
+		width:80%;
+		margin:auto;
+		font-size:1.2em;
+		padding:20px;
+		margin-top:30px;
+		
+	}
+	.trocah{
+		color:#FF8E00;
+		
+	}
+	/*inpire-se*/
+h3.tituloh3{
+	text-decoration: underline;
+color:orange;
+	
+}
+.tH2p, .politica{
+	color:#FF8E00;
+}
